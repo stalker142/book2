@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Active contacts</title>
+        <link rel="stylesheet" href="address.css">
+    </head>
+
+    <body>
+        
+    <div id="layout">
+
+        <article class="article">
+        <section id="section_activeContacts">
+            <header>
+            
+            <button >opara prosper <span>View</span></button>
+                
+            <div class="contact">  
+                <div class="one">
+                    <div id="ul">
+                    <ul>
+                        <li><span>Name : </span><span>Opara Prosper</span></li>
+                        <li><span>Phone : </span><span>08100724509</span></li>
+                        <li><span>Email : </span><span>oparaprosper79@gmail.com</span></li>
+                    </ul>
+                    </div>
+                
+                    <div id="button">
+                    <button class="edit">Edit</button>
+                    <button class="delete">Delete</button>
+                    <button class="hide">Hide</button>
+                    </div>
+                </div>
+            </div>
+
+            </header>
+
+            <header>
+                
+                <button>Faith Zara<span>View</span></button>
+                <div class="contact">
+               
+                <div class="one" id="show">
+                    <div id="ul">
+                        <ul>
+                            <li><span>Name : </span><span>Faith Zara</span></li>
+                            <li><span>Phone : </span><span>08100724509</span></li>
+                            <li><span>Email : </span><span>faithZara@gmail.com</span></li>
+                        </ul>
+                    </div>
+                    <div id="button">
+                    <button class="edit">Edit</button>
+                    <button class="delete">Delete</button>
+                    <button class="hide">Hide</button>
+                    </div>
+                    </div>
+                </div>
+
+            </header>
+
+            <header>
+
+                <button>Obimma Uchechukwu<span>View</span></button>
+                <div class="contact ">
+                   
+                    <div class="one">
+                        <div id="ul">
+                        <ul>
+                            <li><span>Name : </span><span>Obimma Uchechukwu</span></li>
+                            <li><span>Phone : </span><span>08100724509</span></li>
+                            <li><span>Email : </span><span>obimmaUche@gmail.com</span></li>
+                        </ul>
+                        </div>
+                        <div id="button">
+                        <button class="edit">Edit</button>
+                        <button class="delete">Delete</button>
+                        <button class="hide">Hide</button>
+                        </div>
+                    </div>
+                </div>
+
+                </header>
+        </section>
+
+        </article>
+
+        
+
+        <section id="addHere" class="newContactDetails">
+            <h1>Добавить новый контакт</h1>
+            <form id="newContactForm">
+            <input type="text" placeholder="Name" id="name" >
+            <input type="text" placeholder="Phone" id="phone" >
+            <input type="email" placeholder="Email" id="email" >
+            <input type="submit" value="Добавить">
+            </form>
+
+            
+
+            <div class="p" id="guide2">
+                <h2>//Краткое обучение//</h2>
+
+                <li>* Чтобы просмотреть контакт, нажмите на кнопку view</li>
+                <ul>
+                    <li>* Для удаления контакта нажмите на Delete</li>
+                    <li>* Для редактирования существующего контакта нажмите на edit</li>
+                    <li>* Для добавления нового контакта нажмите кнопку добавить</li>
+                 </ul>
+    
+            </div>
+
+        </section>
+
+        <div id="editDetails">
+           <form id="editForm">
+                <h2>Edit Contact</h2>
+
+                <label>Name</label>
+                <input type="text" name="newName" >
+                <label>Phone</label>
+                <input type="text" name="newPhone">
+                <label>Email</label>
+                <input type="text" name="newEmail">
+                <input type="submit" value="save changes">
+           </form>
+        </div>
+
+    </div>
+        <script src="address.js"></script>
+        <script src="delete.js"></script>
+        <script src="edit.js"></script>
+        <script src="form.js"></script>
+        <script src="click.js"></script>
+    </body>
+
+</html>
