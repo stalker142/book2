@@ -1,7 +1,7 @@
 //
 const delete_btn = document.querySelector('#section_activeContacts');
 
-//удаление контакта и закрывание выплывающего меню
+//удаление контакта и закрывание(сокрытиеЁ) выплывающего меню
 delete_btn.addEventListener('click', function(e){
        //удаление контакта
     if (e.target.className === "delete") {
